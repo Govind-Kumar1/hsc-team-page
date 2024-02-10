@@ -17,6 +17,9 @@ const Team = () => {
    <Card className="ex-sec" name="Sukrit Prakash" role="Web Developer" />
    </div>
     </div>
+    <div><Marquee>
+   
+      </Marquee></div>
 
       
     </>
