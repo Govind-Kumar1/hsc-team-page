@@ -1,4 +1,5 @@
 import React from 'react'
+import Marquee from '../marquee/marquee'
 // import img1 from './download.jpeg'
 // import img2 from './img.jpg'
 import './Team.css'
