@@ -1,12 +1,25 @@
 import React from 'react'
-import img1 from './download.jpeg'
+// import img1 from './download.jpeg'
+// import img2 from './img.jpg'
 import './Team.css'
+import Card from '../Card/Card'
 const Team = () => {
   return (
-    <div className='team'>
-      <h1>TEAMS</h1>
-      <img src={img1} alt=''></img>
+    <>
+      <div> <h1>Teams</h1></div>
+    <div className='team-contents'>
+    <Card name="Govind Kumar" role="Web Developer" />
+
+   <div className='sec-team'>
+   <h3> Ex Sec.</h3>
+   <Card  className="ex-sec"name="Sukrit Prakash" role="Web Developer" />
+  
+   <Card className="ex-sec" name="Sukrit Prakash" role="Web Developer" />
+   </div>
     </div>
+
+      
+    </>
   )
 }
 
