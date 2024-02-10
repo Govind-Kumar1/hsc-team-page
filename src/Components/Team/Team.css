@@ -1,0 +1,16 @@
+.team{
+    background: linear-gradient(90deg, #00ff00 0%, #0000ff 50%, #00ff00 100%);
+    color:white;
+    
+}
+.team h1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.team img{
+    position: absolute;
+     border-bottom: 0;
+     border-left: 0;
+
+}
